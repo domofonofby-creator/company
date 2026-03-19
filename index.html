@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ООО "Армоленд" — Продажа кровельных материалов</title>
+  <meta name="description" content="ООО Армоленд. Продажа кровельных материалов. Контактные данные и юридическая информация компании." />
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --accent: #0b66c3;
+      --border: #e5e7eb;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background: linear-gradient(180deg, #f5f7fb 0%, #eef2f9 100%);
+      color: var(--text);
+    }
+
+    .wrap {
+      max-width: 860px;
+      margin: 48px auto;
+      padding: 0 16px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 28px;
+      box-shadow: 0 8px 28px rgba(15, 23, 42, 0.06);
+    }
+
+    h1 {
+      margin: 0 0 8px 0;
+      font-size: 32px;
+      line-height: 1.2;
+    }
+
+    .subtitle {
+      margin: 0 0 24px 0;
+      color: var(--muted);
+      font-size: 17px;
+    }
+
+    .grid {
+      display: grid;
+      gap: 14px;
+    }
+
+    .row {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 16px;
+      background: #fff;
+    }
+
+    .label {
+      display: block;
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+
+    .value {
+      font-size: 17px;
+      line-height: 1.5;
+      word-break: break-word;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    .footer {
+      margin-top: 16px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <h1>ООО "Армоленд"</h1>
+      <p class="subtitle">Продажа кровельных материалов</p>
+
+      <div class="grid">
+        <div class="row">
+          <span class="label">Полное наименование</span>
+          <div class="value">Общество с ограниченной ответственностью "Армоленд"</div>
+        </div>
+
+        <div class="row">
+          <span class="label">УНП</span>
+          <div class="value">491154808</div>
+        </div>
+
+        <div class="row">
+          <span class="label">Юридический адрес</span>
+          <div class="value">ул. К.Паскевича, д. 6, 246000, Добруш, Гомельская обл.</div>
+        </div>
+
+        <div class="row">
+          <span class="label">Телефон</span>
+          <div class="value"><a href="tel:+375445126262">+375 44 512-62-62</a></div>
+        </div>
+      </div>
+
+      <p class="footer">Официальная контактная страница компании для клиентов и партнеров.</p>
+    </section>
+  </main>
+</body>
+</html>
